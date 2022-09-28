@@ -10,7 +10,7 @@ const Home = () => {
       </div>
       {/* Activity Tracker */}
       <div>
-        activity
+        sider bar
       </div>
     </main>
   )
