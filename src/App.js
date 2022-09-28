@@ -7,6 +7,8 @@ function App() {
     <div className="max-w-7xl mx-auto px-4">
       {/* Header */}
       <Header />
+      {/* Main */}
+      <Home />
     </div>
   );
 }
