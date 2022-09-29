@@ -28,13 +28,8 @@ const Sidebar = ({readingTime}) => {
       title: 'Successful!',
       text: 'You did a great job!',
       icon: 'success',
-      confirmButtonText: 'Reload',
+      confirmButtonText: 'Ok',
       confirmButtonColor: '#4981A7'
-    }).then((result) => {
-      if (result.isConfirmed) {
-        window.location.reload(true);
-        localStorage.removeItem('bookmory');
-      }
     })
   };
 
