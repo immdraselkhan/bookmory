@@ -8,7 +8,7 @@ function App() {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/immdraselkhan/books-api/main/books.json')
+    fetch('https://raw.githubusercontent.com/immdraselkhan/bookmory-api/main/books.json')
     .then(res => res.json())
     .then(data => setBooks(data.books))
     .catch(error => console.log(error));
